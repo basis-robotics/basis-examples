@@ -1,0 +1,10 @@
+recording:
+  directory: /tmp/
+  # list of glob expressions to match topics to
+  topics:
+    - /chatter
+processes:
+  demo:
+    units:
+      simple_pub: {}
+      simple_sub: {}
