@@ -213,7 +213,7 @@ OnChatter::Output simple_sub::OnChatter(const OnChatter::Input &input) {
 }
 ```
 
-## Run
+## Run individual processes
 
 We can now build our code and run it. As before, we build with:
 
@@ -258,5 +258,38 @@ $ ./simple_sub
 ^C
 ```
 
+## Run with the Basis Launcher
+
+Another way to run our code is to use the Basis launcher. The launcher requires a configuration file to specify how the units will be started and the parameters. Here we will look at how we can use the configuration file to run the publisher and subscriber either as two processes or as two threads within one process.
+
+Two processes with one thread each (`launch_two_process.yaml`):
+
+```yaml
+processes:
+  demo_pub:
+    units:
+      simple_pub: {}
+  simple_sub:
+    units:
+      simple_sub: {}
+```
+
+Launching:
+```sh
+basis launch launch_two_process.yaml
+```
 
 
+Two threads within one process (`launch_single_process.yaml`):
+```yaml
+processes:
+  demo:
+    units:
+      simple_pub: {}
+      simple_sub: {}
+```
+
+Launching:
+```sh
+basis launch launch_single_process.yaml
+```
