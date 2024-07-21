@@ -1,6 +1,4 @@
 
-
-
 In the [Simple publisher & subscriber](README.md) project we set up two units: one publisher and one subscriber, sending and receiving a "Hello, world!" message on the topic `/chatter`.
 
 Once the code is running, it is useful to look at the message traffic: topics, publishers, schemas, and print messages on a topic. Basis includes a Command Line Interface (CLI) tool that can do all these things.
