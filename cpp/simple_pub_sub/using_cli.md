@@ -46,7 +46,7 @@ file {
 }
 ```
 
-Finally, we can print new messages published on a topic. For `/chatter`, let's show the next three messages in `JSON` fornat:
+Finally, we can print new messages published on a topic. For `/chatter`, let's show the next three messages in `JSON` format:
 ```
 $ basis topic print /chatter -n 3 --json
 {"message":"Hello, world!"}
