@@ -293,3 +293,9 @@ Launching:
 ```sh
 basis launch launch_single_process.yaml
 ```
+
+### Next Steps
+
+Basis offers a Command Line Interface (CLI) tool that allows you to get real-time information on your project. To explore practical examples related to this project, visit the following link: [Using the CLI](using_cli.md)
+
+In this section, you'll find instructions on how to utilize the CLI for tasks such as monitoring message traffic, examining topic information, and more. These examples will help you gain a deeper understanding of how to effectively use the CLI in your projects.
