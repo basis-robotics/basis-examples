@@ -4,8 +4,12 @@ recording:
   topics:
     - /chatter
     - /log
-processes:
-  demo:
+groups:
+  simple_pub:
+    process: False
     units:
       simple_pub: {}
+  simple_sub:
+    process: False
+    units:
       simple_sub: {}
