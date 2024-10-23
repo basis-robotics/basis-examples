@@ -5,11 +5,8 @@ recording:
     - /chatter
     - /log
 groups:
-  simple_pub:
+  simple_pub_sub:
     process: False
     units:
       simple_pub: {}
-  simple_sub:
-    process: False
-    units:
       simple_sub: {}
