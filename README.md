@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-Basis
+Basis | Examples
 </h1>
 
 Basis is a robotics development framework developed by [Basis Robotics](https://basisrobotics.tech/)
@@ -21,6 +21,9 @@ Basis is a robotics development framework developed by [Basis Robotics](https://
 <span>&nbsp;&nbsp;·&nbsp;&nbsp;</span>
 [LinkedIn](https://www.linkedin.com/company/basisrobotics/)
 
-# Basis code examples
+<span>&nbsp;</span>
 
-[Simple Pub](cpp/simple_pub_sub)
+# Basis examples
+
+This Git repository contains example projects that utilize the Basis framework. Below is the current list of projects:
+- [Simple Pub](cpp/simple_pub_sub)
