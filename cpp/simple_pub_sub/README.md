@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-Basis
+Basis | Examples | Simple Pub/Sub
 </h1>
 
 Basis is a robotics development framework developed by [Basis Robotics](https://basisrobotics.tech/)
@@ -21,6 +21,4 @@ Basis is a robotics development framework developed by [Basis Robotics](https://
 <span>&nbsp;&nbsp;·&nbsp;&nbsp;</span>
 [LinkedIn](https://www.linkedin.com/company/basisrobotics/)
 
-# Basis code examples
-
-[Simple Pub](cpp/simple_pub_sub)
+This code example demonstrates how to implement a publisher and a subscriber using the Basis framework and its code generator. In this example, the publisher sends a "Hello world" message to a topic every second, while the subscriber listens to the topic, receives the message, and prints it. This example is part of a tutorial available here: [Getting Started with Basis - Simple Pub/Sub](https://docs.basisrobotics.tech/guide-getting-started/simple-pub-sub).
