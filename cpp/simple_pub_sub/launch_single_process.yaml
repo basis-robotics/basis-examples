@@ -1,5 +1,12 @@
-processes:
-  demo:
+recording:
+  directory: /tmp/
+  # list of glob expressions to match topics to
+  topics:
+    - /chatter
+    - /log
+groups:
+  simple_pub_sub:
+    process: False
     units:
       simple_pub: {}
       simple_sub: {}
