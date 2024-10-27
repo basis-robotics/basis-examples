@@ -1,0 +1,3 @@
+generate_unit(simple_pub)
+
+target_link_libraries(unit_simple_pub simple_pub_sub_proto)

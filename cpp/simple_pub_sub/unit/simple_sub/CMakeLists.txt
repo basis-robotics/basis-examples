@@ -1,0 +1,3 @@
+generate_unit(simple_sub)
+
+target_link_libraries(unit_simple_sub simple_pub_sub_proto)
