@@ -8,5 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_subdirectory(/basis/ /basis/build)
 add_subdirectory(proto)
 
-add_subdirectory(/unit/simple_pub)
-add_subdirectory(/unit/simple_sub)
+add_subdirectory(unit/simple_pub)
+add_subdirectory(unit/simple_sub)
