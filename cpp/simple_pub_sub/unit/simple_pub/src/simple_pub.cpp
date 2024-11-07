@@ -2,8 +2,8 @@
 
 using namespace unit::simple_pub;
 
-PublishAt1Hz::Output
-simple_pub::PublishAt1Hz(const PublishAt1Hz::Input &input) {
+
+PublishAt1Hz::Output simple_pub::PublishAt1Hz(const PublishAt1Hz::Input& input) {
   Logger().info("PublishAt1Hz");
   PublishAt1Hz::Output output;
   std::shared_ptr<StringMessage> msg{std::make_shared<StringMessage>()};
